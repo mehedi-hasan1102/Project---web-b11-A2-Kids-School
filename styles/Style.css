@@ -251,6 +251,87 @@ a {
   }
   
   /* story section */
+  /* Our Stories Section CSS */
+.our-stories {
+  background: url('../images/bg.png') no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 223, 186, 0.5) 50%, rgba(255, 223, 186, 1) 100%), url('./images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.our-stories-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.our-stories-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.our-stories-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.our-stories-card:hover {
+  transform: scale(1.05);
+}
+
+.our-stories-card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.our-stories-card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.our-stories-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.our-stories-card-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.our-stories-view-all {
+  margin-top: 30px;
+}
+
+.our-stories-view-all-button {
+  background: #333;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.our-stories-view-all-button:hover {
+  background: #555;
+}
 
   /* footer  */
   .footer {
@@ -332,6 +413,6 @@ a {
   }
 
   .footer-icon{display: flex;}
-  
+
   .footer-img{background-color: white;
   border-radius: 5px;}
