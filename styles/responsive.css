@@ -1,6 +1,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
 
+    /* nav  */
     .nav-links,
     .contact-btn {
         display: none;
@@ -8,5 +9,26 @@
 
     .mobile-menu {
         display: block;
+    }
+
+
+    /* hero */
+
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        margin-bottom: 20px;
     }
 }
