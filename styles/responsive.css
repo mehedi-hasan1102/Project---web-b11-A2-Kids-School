@@ -1,0 +1,12 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .nav-links,
+    .contact-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
