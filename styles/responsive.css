@@ -47,7 +47,7 @@
   .arrow-buttons{display: none;}
 
 /* story */
-
+.our-stories-card-1{display: none;}
 
     .our-stories-cards-container {
       grid-template-columns: repeat(2, 1fr);
