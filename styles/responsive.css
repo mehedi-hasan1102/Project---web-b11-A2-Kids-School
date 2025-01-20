@@ -11,7 +11,7 @@
         display: block;
     }
 
-
+.navbar{border-bottom: 1px solid orange;}
     /* hero */
 
     .hero-section {
@@ -46,3 +46,5 @@
 
   .arrow-buttons{display: none;}
 }
+
+/* story */
