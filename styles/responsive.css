@@ -31,4 +31,18 @@
         max-width: 100%;
         margin-bottom: 20px;
     }
+
+    /* Standard Curriculum Section */
+
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .arrow-buttons{display: none;}
 }
