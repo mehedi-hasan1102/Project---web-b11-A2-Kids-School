@@ -1,5 +1,6 @@
-/* Responsive Design */
-@media (max-width: 768px) {
+/* Responsive Design for 768px */
+
+@media (max-width: 576px) {
 
     /* nav  */
     .Nav-logo-text,
