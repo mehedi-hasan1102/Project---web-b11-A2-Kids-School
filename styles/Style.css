@@ -308,8 +308,15 @@ a {
     transform: scale(1.1);
   }
   
-  /* story section */
+  
   /* Our Stories Section CSS */
+
+  .child-1{display: grid;}
+
+  .child-2 { display: grid;
+  grid-template-columns: 1fr 1fr;
+gap: 20px;}
+
 .our-stories {
   background: url('../images/bg.png') no-repeat center center/cover;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 223, 186, 0.5) 50%, rgba(255, 223, 186, 1) 100%), url('./images/background-image.jpg');
@@ -343,6 +350,22 @@ a {
   flex-direction: column;
   transition: transform 0.3s ease;
 }
+
+.our-stories-card-1 img {
+  width: 100%;
+  height: 337px;
+    object-fit: cover;
+  
+}
+
+.our-stories-card-1 h3{
+  width: 402.49px;
+  height: 69.98px;
+  left: 0;
+  top: 2.88px;
+  font-size: 28px;
+  font-weight: 700;
+ margin-bottom: 25px;}
 
 .our-stories-card:hover {
   transform: scale(1.05);
@@ -390,6 +413,66 @@ a {
 .our-stories-view-all-button:hover {
   background: #555;
 }
+ /* our stories btn  */
+ .btn-style-1 {
+  background-color: #ff9999;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -15px;
+z-index: 1;
+
+margin-left: 120px;}
+
+.btn-style-2 {
+  background-color: #ffcc99;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -15px;
+z-index: 1;}
+
+.btn-style-3 {
+  background-color: #99ccff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -15px;
+z-index: 1;
+}
+
+.btn-style-4 {
+  background-color: #99ff99;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;position: absolute;
+  margin-top: -15px;
+z-index: 1;
+}
+
+.btn-style-5 {
+  background-color: #cc99ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;position: absolute;
+  margin-top: -15px;
+z-index: 1;
+} 
+
+
 
   /* footer  */
   .footer {
@@ -474,3 +557,5 @@ a {
 
   .footer-img{background-color: white;
   border-radius: 5px;}
+
+  

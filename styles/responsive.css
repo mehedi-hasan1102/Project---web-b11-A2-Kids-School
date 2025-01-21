@@ -25,7 +25,7 @@
       
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      
       text-align: center;
   }
   
@@ -57,12 +57,21 @@
 
   .arrow-buttons{display: none;}
 
+  .standard-curriculum {
+    padding-bottom: 5px;
+  }
+
 /* story */
+
+.our-stories {
+    padding-top: 0px;
+}
 .our-stories-card-1{display: none;}
 
     .our-stories-cards-container {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
+        
+        gap: 15px;
+        justify-content: space-around;
     }
  
 
@@ -70,11 +79,11 @@
 
   .footer {
     flex-direction: column;
-    align-items: center;
+    align-items: right;
   }
 
   .footer-column {
-    text-align: center;
+    text-align: left;
   }
 
   .footer-social {
@@ -82,4 +91,12 @@
   }
 }
 
+.footer-column  {
+  display: flex;
+  flex-direction: column;
+  
+}
 
+.footer-title{
+  font-size: 1.5rem;
+}
