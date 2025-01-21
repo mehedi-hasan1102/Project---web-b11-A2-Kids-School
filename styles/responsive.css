@@ -90,7 +90,7 @@
   .footer-social {
     justify-content: center;
   }
-}
+  
 
 .footer-column  {
   display: flex;
@@ -100,4 +100,9 @@
 
 .footer-title{
   font-size: 1.5rem;
-}
+} 
+
+.footer-about{
+  margin-left: 0px;
+  padding-right: 0px;
+} }
