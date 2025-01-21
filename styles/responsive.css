@@ -20,6 +20,15 @@
         text-align: center;
     }
 
+    .hero-content {
+      
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+  }
+  
+
     .hero-content h1 {
         font-size: 2rem;
     }
