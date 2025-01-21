@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
 
     /* nav  */
+    .Nav-logo-text,
     .nav-links,
     .contact-btn {
         display: none;

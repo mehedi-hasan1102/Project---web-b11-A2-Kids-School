@@ -64,15 +64,13 @@ a {
 
 .nav-links li a {
     text-decoration: none;
-    color: #555;
     font-size: 1rem;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-.nav-links li a:hover {
-    color: #ff9500;
-}
+
+
 
 /* Contact Button */
 .contact-btn button {
@@ -88,6 +86,40 @@ a {
 
 .contact-btn button:hover {
     background-color: #e68a00;
+}
+
+/* specific style fo li  */
+
+.nav-home a {
+  color: blue;
+}
+
+.nav-home a:hover {
+  color: darkblue;
+}
+
+.nav-about a {
+  color: green;
+}
+
+.nav-about a:hover {
+  color: darkgreen;
+}
+
+.nav-facilities a {
+  color: orange;
+}
+
+.nav-facilities a:hover {
+  color: darkorange;
+}
+
+.nav-admission a {
+  color: red;
+}
+
+.nav-admission a:hover {
+  color: darkred;
 }
 
 /* Mobile Menu Icon */
