@@ -58,7 +58,8 @@
   .arrow-buttons{display: none;}
 
   .standard-curriculum {
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
 /* story */
