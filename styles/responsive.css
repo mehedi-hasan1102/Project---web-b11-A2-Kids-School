@@ -105,4 +105,11 @@
 .footer-about{
   margin-left: 0px;
   padding-right: 0px;
-} }
+} 
+/* marquee  */
+.marquee {
+  font-size: 16px; 
+  padding: 10px; 
+  animation: scroll 12s linear infinite; 
+}
+}
