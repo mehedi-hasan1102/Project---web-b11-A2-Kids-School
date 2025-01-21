@@ -581,3 +581,26 @@ a {
   background-color: white;
   border-radius: 5px;
 }
+/* marquee  */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007BFF;
+  background-color: yellow;
+  padding: 10px;
+  overflow: hidden;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
