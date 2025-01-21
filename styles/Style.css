@@ -253,14 +253,40 @@ a {
   .read-more {
     text-decoration: none;
     font-weight: bold;
-    color: #007bff;
+    
     transition: color 0.3s;
   }
+ 
   
-  .read-more:hover {
-    color: #0056b3;
-  }
   
+.blue-style {
+  color: blue;
+}
+
+.blue-style:hover {
+  color: darkblue;
+  
+}
+
+
+.green-style {
+  color: green;
+}
+
+.green-style:hover {
+  color: darkgreen;
+  
+}
+
+
+.red-style {
+  color: red;
+}
+
+.red-style:hover {
+  color: darkred;
+  
+}
   .arrow-buttons {
     margin-top: 40px;
   }
