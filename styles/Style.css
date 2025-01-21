@@ -433,7 +433,11 @@ a {
 
   margin-left: 120px;
 }
-
+.date-button{position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;}
+  
 .btn-style-2 {
   background-color: #ffcc99;
   color: black;

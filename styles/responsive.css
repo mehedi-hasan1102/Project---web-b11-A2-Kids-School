@@ -75,7 +75,12 @@
         justify-content: space-around;
     }
  
-
+.date-button {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;
+}
 /* footer  */
 
   .footer {
