@@ -431,13 +431,16 @@ a {
   margin-top: -15px;
   z-index: 1;
 
-  margin-left: 120px;
+
 }
-.date-button{position: relative;
+
+.date-button {
+  position: relative;
   align-items: center;
   justify-content: center;
-  margin-left: -100px;}
-  
+  margin-left: -100px;
+}
+
 .btn-style-2 {
   background-color: #ffcc99;
   color: black;
@@ -503,7 +506,7 @@ a {
   flex: 1;
   min-width: 250px;
   margin-bottom: 20px;
-  
+
 }
 
 .footer-logo {
@@ -521,10 +524,12 @@ a {
   font-size: 1.5rem;
   font-weight: bold;
 }
-.footer-about{
+
+.footer-about {
   margin-left: 50px;
   padding-right: 250px;
 }
+
 .footer-about p {
   margin: 10px 0 0;
   font-size: 14px;
@@ -554,7 +559,7 @@ a {
 .footer-social {
   display: flex;
   gap: 10px;
-  
+
 }
 
 .footer-social a {
@@ -565,10 +570,10 @@ a {
   height: 35px;
   background-color: white;
   border-radius: 10%;
-  
-  
-  
-  
+
+
+
+
 }
 
 .footer-social a img {
@@ -578,13 +583,14 @@ a {
 .footer-icon {
   display: flex;
   gap: 10px;
-  
+
 }
 
 .footer-img {
   background-color: white;
   border-radius: 5px;
 }
+
 /* marquee  */
 .marquee {
   width: 100%;
@@ -602,9 +608,10 @@ a {
 
 @keyframes scroll {
   0% {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
+
   100% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
