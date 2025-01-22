@@ -566,8 +566,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 36px;
   background-color: white;
   border-radius: 10%;
 
@@ -577,7 +577,8 @@ a {
 }
 
 .footer-social a img {
-  width: 18px;
+  width: 35px;
+  height: 35px;
 }
 
 .footer-icon {
