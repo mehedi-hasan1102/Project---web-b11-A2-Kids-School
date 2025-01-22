@@ -588,11 +588,15 @@ a {
 
 .footer-img {
   background-color: transparent;
-  
+
 }
 
 /* marquee  */
-.marquee {
+
+
+
+marquee {
+
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
@@ -600,20 +604,9 @@ a {
   font-size: 20px;
   font-weight: bold;
   color: #007BFF;
-  background-color: yellow;
+  background-color: lightyellow;
   padding: 10px;
   overflow: hidden;
   animation: scroll 20s linear infinite;
-  max-width: fit-content;
-  min-width: fit-content;
-}
 
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
 }
