@@ -604,6 +604,8 @@ a {
   padding: 10px;
   overflow: hidden;
   animation: scroll 20s linear infinite;
+  max-width: fit-content;
+  min-width: fit-content;
 }
 
 @keyframes scroll {
