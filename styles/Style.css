@@ -581,6 +581,10 @@ a {
   height: 35px;
 }
 
+.footer-social a:hover {
+  background-color: #333;
+}
+
 .footer-icon {
   display: flex;
   gap: 10px;
